@@ -1,0 +1,45 @@
+form {
+  max-width: 40%;
+  margin: 2rem auto;
+  background-color: lightgray;
+  border-radius: 20px;
+  padding: 1rem;
+}
+.form-control {
+  padding: 10px 0;
+}
+.form-control input {
+  padding: 6px 0;
+  margin-top: 12px;
+  width: 60%;
+  outline: 0;
+  border: 0;
+}
+.form-control input:focus {
+  border: 2px solid purple;
+  background-color: rgba(227, 188, 227, 0.5);
+}
+.form-actions {
+  text-align: end;
+}
+.form-actions button {
+  padding: 10px 15px;
+  background-color: rgb(84, 31, 84);
+  border: none;
+  color: #fff;
+}
+.form-control.invalid p {
+  color: red;
+}
+.form-control.invalid input {
+  background-color: rgb(235 75 75 / 29%);
+  border: 2px solid red;
+}
+button:disabled,
+button:disabled:active,
+button:disabled:focus,
+button:disabled:hover {
+  background-color: rgb(183, 180, 180);
+  color: #292929;
+  cursor: not-allowed;
+}
